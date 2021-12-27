@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome to Monkey ManagerStats"/>
+    <button class="start-btn btn"><router-link to="/start"><img class="start-img" alt="Vue logo" src="../assets/logo.png"></router-link></button>
   </div>
 </template>
 
@@ -16,3 +16,16 @@ export default {
   }
 }
 </script>
+<style scoped>
+.start-btn, .start-img {
+  width: 50%;
+  height: 50%;
+  border-style: none;
+}
+
+.start-btn, .start-img :hover{
+  width: 55%;
+  height: 55%;
+  
+}
+</style>
